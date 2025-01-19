@@ -1,0 +1,667 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\views\\product\\seeall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:views\\product\\seeall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\views\\orders\\seeall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:views\\orders\\seeall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\views\\orders\\adminorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:views\\orders\\adminorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\views\\log\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:views\\log\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\viewmodels\\verifyemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:viewmodels\\verifyemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\viewmodels\\addproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:viewmodels\\addproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\viewmodels\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:viewmodels\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\viewmodels\\productsandcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:viewmodels\\productsandcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\viewmodels\\allordersmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:viewmodels\\allordersmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\models\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:models\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\views\\shared\\_shoppartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:views\\shared\\_shoppartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\helpers\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:helpers\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|c:\\users\\marra\\onedrive\\pulpit\\dbwai\\projekt\\projektdb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9710FE4-DCFF-460F-B67E-C35E15A77633}|ProjektDb.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T12:28:42.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeToolTip": "Views\\Account\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T12:26:17.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Product\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Add.cshtml",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Product\\Add.cshtml",
+              "RelativeToolTip": "Views\\Product\\Add.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T12:22:58.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\ViewModels\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\ViewModels\\ErrorViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T11:56:44.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T11:58:56.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T11:55:08.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAA5wE0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T10:29:20.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T10:22:45.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T10:16:42.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ChangePasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\ViewModels\\ChangePasswordViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ChangePasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\ViewModels\\ChangePasswordViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ChangePasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T10:16:21.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\ViewModels\\AddProductViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AddProductViewModel.cs",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\ViewModels\\AddProductViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AddProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T10:16:09.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\ViewModels\\CartItem.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CartItem.cs",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\ViewModels\\CartItem.cs",
+              "RelativeToolTip": "ViewModels\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T10:10:58.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductsAndCart.cs",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\ViewModels\\ProductsAndCart.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ProductsAndCart.cs",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\ViewModels\\ProductsAndCart.cs",
+              "RelativeToolTip": "ViewModels\\ProductsAndCart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T10:07:52.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\ViewModels\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\ViewModels\\ProductViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T10:07:50.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T10:03:11.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VerifyEmailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\ViewModels\\VerifyEmailViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\VerifyEmailViewModel.cs",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\ViewModels\\VerifyEmailViewModel.cs",
+              "RelativeToolTip": "ViewModels\\VerifyEmailViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T10:02:49.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-18T09:48:20.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T09:46:43.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T09:12:29.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T09:07:51.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-17T22:30:38.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Log\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Log\\Index.cshtml",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Log\\Index.cshtml",
+              "RelativeToolTip": "Views\\Log\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T16:01:07.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LogController.cs",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Controllers\\LogController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LogController.cs",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Controllers\\LogController.cs",
+              "RelativeToolTip": "Controllers\\LogController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T15:59:26.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Log.cs",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Models\\Log.cs",
+              "RelativeDocumentMoniker": "Models\\Log.cs",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Models\\Log.cs",
+              "RelativeToolTip": "Models\\Log.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T15:39:49.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T14:25:01.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AllOrdersModel.cs",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\ViewModels\\AllOrdersModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AllOrdersModel.cs",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\ViewModels\\AllOrdersModel.cs",
+              "RelativeToolTip": "ViewModels\\AllOrdersModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T13:37:49.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Orders\\AdminOrders.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\AdminOrders.cshtml",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Orders\\AdminOrders.cshtml",
+              "RelativeToolTip": "Views\\Orders\\AdminOrders.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T13:33:31.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T12:25:36.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "Models\\Users.cs",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Models\\Users.cs",
+              "RelativeToolTip": "Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T12:25:34.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAQwEsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T12:06:35.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Helpers\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "Helpers\\SessionExtensions.cs",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Helpers\\SessionExtensions.cs",
+              "RelativeToolTip": "Helpers\\SessionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T12:01:31.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_ShopPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Shared\\_ShopPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ShopPartial.cshtml",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Shared\\_ShopPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ShopPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T11:51:12.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SeeAll.cshtml",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Orders\\SeeAll.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\SeeAll.cshtml",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Orders\\SeeAll.cshtml",
+              "RelativeToolTip": "Views\\Orders\\SeeAll.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T10:46:41.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SeeAll.cshtml",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Product\\SeeAll.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\SeeAll.cshtml",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Views\\Product\\SeeAll.cshtml",
+              "RelativeToolTip": "Views\\Product\\SeeAll.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T09:27:37.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwGMAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:47:25.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OrderProduct.cs",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Models\\OrderProduct.cs",
+              "RelativeDocumentMoniker": "Models\\OrderProduct.cs",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Models\\OrderProduct.cs",
+              "RelativeToolTip": "Models\\OrderProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T09:18:06.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T09:13:13.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\marra\\OneDrive\\Pulpit\\DBwAI\\Projekt\\ProjektDb\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAowJoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:47:03.875Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

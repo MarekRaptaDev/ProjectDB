@@ -1,0 +1,35 @@
+﻿@model IEnumerable<ProjektDb.Models.Log>
+
+@{
+    ViewData["Title"] = "Logs";
+}
+
+<div class="container mt-5">
+    <h1 class="mb-4">@ViewData["Title"]</h1>
+
+    <div style="max-height: 600px; overflow-y: auto; border: 1px solid #ddd; border-radius: 4px;">
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>LogId</th>
+                    <th>TableName</th>
+                    <th>ObjectId</th>
+                    <th>Action Done</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var log in Model)
+                {
+                    <tr>
+                        <td>@log.Id</td>
+                        <td>@log.TableName</td>
+                        <td>@log.ObjectId</td>
+                        <td>@log.DeleteDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    
+</div>

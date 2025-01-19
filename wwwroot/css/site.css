@@ -1,0 +1,92 @@
+html,body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+}
+html {
+    font-size: 14px;
+   width:100%;
+}
+.vsc-initialized{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    
+}
+
+body {
+    display:flex;
+    height:93%;
+    flex-direction:column;
+   overflow:hidden;
+ 
+}
+header{
+    margin-bottom:0;
+}
+.main-view {
+    background-image: url('../images/login.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat-y;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem 0;
+}
+.text-frame {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    width: 100%;
+    height:100%;
+    opacity: .9;
+    font-family:Impact;
+    margin:0;
+}
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    margin-bottom: 10px;
+}
+.main{
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+}
+footer{
+    background-color:white;
+    text-align:left;
+    width:100%;
+    margin:0;
+}
+.container{
+    justify-content:center;
+}

@@ -1,0 +1,25 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<Users> signInManager;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="main-view">
+    <div class="text-frame">
+@if (signInManager.IsSignedIn(User))
+{
+    <div class="text-center">
+        <h2 class="display-4">Welcome in our store!</h2>
+        <h4 class="display-6">Let us ship you your dreams!</h4>
+        <h4 class="display-6">Please chose any option from menu on the top of this site to continue</h4>
+    </div>
+}
+else
+{
+    <div class="text-center">
+        <h2 class="display-4">Welcome in our store!</h2>
+        <h4 class="display-6">Please log in to procede</h4>
+    </div>
+}
+    </div>
+</div>

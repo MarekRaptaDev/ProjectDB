@@ -1,0 +1,107 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<Users> signInManager
+@inject UserManager<Users> userManager
+@model ProjektDb.ViewModels.ProductsAndCart
+
+<div class="container mt-5">
+    <h1 class="mb-4 text-center">Place your order</h1>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="row">
+                @foreach (var product in Model.Products.Where(p => p.DeletedAt == null))
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">@product.Name</h5>
+                                <p class="card-text">@product.Description</p>
+                                <p class="card-text"><strong>Price:</strong> @product.Price.ToString("C")</p>
+                                <form asp-action="AddToCart" asp-controller="Orders" method="post" class="mt-auto">
+                                    <input type="hidden" name="productId" value="@product.Id" />
+                                    <div class="input-group mb-3">
+                                        <input type="number" name="quantity" class="form-control" placeholder="Quantity" min="1" value="1" required />
+                                        <button type="submit" class="btn btn-primary">
+                                            <i class="bi bi-plus"></i> Add to Cart
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <button id="toggleCartButton" class="btn btn-secondary mb-4">Hide Cart</button>
+            <h3 id="cartTitle">Your Cart</h3>
+            <div id="cartSection">
+                @if (Model.Cart != null && Model.Cart.Any())
+                {
+                    <form asp-action="PlaceOrder" asp-controller="Orders" method="post" id="orderForm">
+                        <ul class="list-group">
+                            @foreach (var cartItem in Model.Cart)
+                            {
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span>@cartItem.product.Name</span>
+                                    <span>x @cartItem.quantity</span>
+                                    <span>@(cartItem.product.Price * cartItem.quantity)</span>
+                                </li>
+                            }
+                        </ul>
+                        <div class="mt-3 text-end">
+                            <strong>Total: </strong>
+                            @Model.Cart.Sum(item => item.product.Price * item.quantity)
+                        </div>
+
+                        <div class="form-group mt-4">
+                            <label for="shipmentAddress">Shipment Address</label>
+                            <input type="text" class="form-control" id="shipmentAddress" name="shipmentAddress" required />
+                        </div>
+
+                        <button type="submit" class="btn btn-success mt-3 w-100">Place the Order</button>
+                    </form>
+                }
+                else
+                {
+                    <p>Your cart is empty.</p>
+                }
+            </div>
+        </div>
+    </div>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+</div>
+
+<script>
+    const toggleCartButton = document.getElementById("toggleCartButton");
+    const cartSection = document.getElementById("cartSection");
+    const cartTitle = document.getElementById("cartTitle");
+
+    toggleCartButton.addEventListener("click", function () {
+        const isCartVisible = cartSection.style.display !== "none";
+        cartSection.style.display = isCartVisible ? "none" : "block";
+        cartTitle.style.display = isCartVisible ? "none" : "block";
+        toggleCartButton.textContent = isCartVisible ? "Show Cart" : "Hide Cart";
+    });
+
+    document.getElementById("orderForm").addEventListener("submit", function (event) {
+        const shipmentAddress = document.getElementById("shipmentAddress").value.trim();
+        if (!shipmentAddress) {
+            event.preventDefault();
+            alert("Please enter a shipping address.");
+        }
+    });
+</script>

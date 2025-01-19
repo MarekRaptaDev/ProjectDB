@@ -1,0 +1,71 @@
+﻿@model ProjektDb.ViewModels.AllOrdersModel
+
+@{
+    ViewData["Title"] = "Admin Orders";
+}
+
+<div class="container mt-5">
+    <h1>@ViewData["Title"]</h1> 
+
+   
+
+    <table class="table table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th>Order Id</th>
+                <th>Shipping Address</th>
+                <th>Products</th>
+                <th>Total Price</th>
+                <th>Created At</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model.Orders)
+            {
+                var orderProducts = Model.OrderProducts.Where(op => op.OrderId == order.Id);
+                decimal totalOrderPrice = 0;
+
+                <tr>
+                    <td>@order.Id</td>
+                    <td>@order.ShippingAddress</td>
+                    <td>
+                        @foreach (var orderProduct in orderProducts)
+                        {
+                            var product = Model.Products.FirstOrDefault(p => p.Id == orderProduct.ProductId);
+                            if (product != null)
+                            {
+                                var totalPrice = product.Price * orderProduct.Quantity;
+                                totalOrderPrice += totalPrice;
+                                <div>@product.Name - @orderProduct.Quantity x @product.Price = @totalPrice</div>
+                            }
+                        }
+                    </td>
+                    <td>@totalOrderPrice</td>
+                    <td>@order.CreatedAt</td>
+                    <td>
+                        @if (order.DeletedAt == null)
+                        {
+                            <form method="post" action="@Url.Action("DeleteOrder", new { orderId = order.Id })" style="display:inline;">
+                                <button type="submit" class="btn btn-danger">Delete</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <span>Deleted At: @order.DeletedAt.Value.ToString("yyyy-MM-dd")</span>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    }
+</div>

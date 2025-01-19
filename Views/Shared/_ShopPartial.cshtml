@@ -1,0 +1,30 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@inject SignInManager<Users> signInManager;
+@inject UserManager<Users> userManager;
+
+<ul class="navbar-nav ms-auto">
+    @if (signInManager.IsSignedIn(User))
+    {
+        
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-controller="Product" asp-action="SeeAll">See All Products</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-controller="Orders" asp-action="SeeAll">Place an Order</a>
+        </li>
+
+       
+        @if (await userManager.IsInRoleAsync(await userManager.GetUserAsync(User), "Admin"))
+        {
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-controller="Product" asp-action="Add">Add Product</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-controller="Orders" asp-action="AdminOrders">Administrate Orders</a>
+            </li>
+            <li>
+                   <a class="nav-link text-dark" asp-controller="Log" asp-action="Index">See All Logs</a> 
+            </li>
+        }
+    }
+</ul>
